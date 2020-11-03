@@ -125,7 +125,7 @@ class DoublyLinkedList:
             after.prev = before
         else:
             self.tail = before
-
+        
         self.length -= 1
 
     """
